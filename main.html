@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1, width=device-width">
+	<link rel="stylesheet" href="./index.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Libertinus+Keyboard&display=swap"
+		rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Bungee&family=Libertinus+Keyboard&family=Space+Grotesk:wght@300..700&display=swap"
+		rel="stylesheet">
+	<script src="script.js" defer></script>
+</head>
+
+<body>
+	<div class="desktop-1">
+		<!-- SCORE CONTAINER -->
+		<div id="score-container">
+			<span id="score-text">Stardust: </span><span id="score-value">0</span>
+			<span id="speed-value"> Now speed: <span id="speed-value-number">0</span></span>
+			<span id="passive-value"> <span id="passive-value-number"></span></span>
+			<span class="reset-container"><button id="reset">Reset Game</button></span>
+		</div>
+
+		<!-- MAIN GAME AREA -->
+		<img class="unsplashuhjiu8fjnsq-icon" alt="" src="image/e6284ebc74b281a1f99b9124984ca7fd457e5f94.jpg"
+			id="space-component-back">
+		<button class="component-button" id="component-button">
+			<img class="component-1-icon" alt="" src="image/Component 1.png" id="space-component">
+		</button>
+		<img src="image/pickaxe.svg" id="pickaxe-hit" alt="Pickaxe">
+
+		<!-- SHOP -->
+		<div id="shop-container">
+			<button id="shop-button"><img src="image/shopLogo.svg"
+					alt="Shop button with gold coin icon on teal background"></button>
+		</div>
+		<!-- ACIEVEMENTS-CONTAINER -->
+		<div id="achievements-container">
+			<button id="achievements-button" class="achievements-button"><img id="achievements-image"
+					class="achievements-image" src="image/achivments.png" alt="Achievements button"></button>
+		</div>
+
+		<!-- ACIEVEMENTS MODAL -->
+		<div id="achievements-modal" class="modal">
+			<div class="modal-content">
+				<button class="close-button2"><span class="close2" id="close2">&times;</span></button>
+				<h2 class="achievements-text">Achievements</h2>
+				<div id="achievements-item"></div>
+			</div>
+		</div>
+
+		<!-- SHOP MODAL -->
+		<div id="shop-modal">
+			<button class="close-button"><span class="close" id="close">&times;</span></button>
+			<h2 class="shop-text">Shop</h2>
+			<div class="shop-item" id="shop-items"></div>
+		</div>
+
+		<!-- TOTAL SCORE CONTAINER -->
+		<div id="total-score-container" class="total-score-container">
+			<span id="score-text-total">Total Stardust: <span id="score-total">0</span></span>
+		</div>
+
+		<!-- BONUS ASTEROID -->
+		<div class="bonus" id="bonus">
+			<img src="image/bonus-asteroid.png" alt="">
+		</div>
+	</div>
+</body>
+
+</html>
